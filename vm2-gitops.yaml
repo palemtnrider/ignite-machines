@@ -1,9 +1,7 @@
 apiVersion: ignite.weave.works/v1alpha2
 kind: VM
 metadata:
-  created: "2019-10-20T12:47:34Z"
-  name: vm2
-  uid: 034dca2e1fddeccd
+  name: vm2-gitops
 spec:
   cpus: 2
   diskSize: 4GB
@@ -17,15 +15,3 @@ spec:
   ssh: true
   storage: {}
 status:
-  image:
-    id: oci://docker.io/weaveworks/ignite-ubuntu@sha256:f8032a6738fdb372eb7e64734c9481f873b57e0ea72b610e0189f0a329283173
-    size: 237539766B
-  ipAddresses:
-  - 172.17.0.4
-  kernel:
-    id: oci://docker.io/weaveworks/ignite-kernel@sha256:a189f75c73a69ca4ab65a08a6566032fd80fd6e2cf26d066fdfc9335a9136215
-    size: 52021449B
-  running: true
-  runtime:
-    id: ceaaa8b3ab9da0cda473ac3c6df5921fea0533ad38e1412e137fb9e700bad1f9
-  startTime: "2019-10-20T12:47:34Z"
