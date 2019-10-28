@@ -1,8 +1,9 @@
 apiVersion: ignite.weave.works/v1alpha2
 kind: VM
 metadata:
+  created: "2019-10-28T01:49:09Z"
   name: vm2-gitops
-  uid: "FE030D91-CC37-4145-8792-88C35F1F5FA6"
+  uid: FE030D91-CC37-4145-8792-88C35F1F5FA6
 spec:
   cpus: 2
   diskSize: 4GB
@@ -16,3 +17,10 @@ spec:
   ssh: true
   storage: {}
 status:
+  image:
+    id: null
+    size: 0B
+  kernel:
+    id: null
+    size: 0B
+  running: false
