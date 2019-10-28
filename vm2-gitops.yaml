@@ -2,6 +2,7 @@ apiVersion: ignite.weave.works/v1alpha2
 kind: VM
 metadata:
   name: vm2-gitops
+  uid: "FE030D91-CC37-4145-8792-88C35F1F5FA6"
 spec:
   cpus: 2
   diskSize: 4GB
