@@ -1,4 +1,3 @@
-
 apiVersion: ignite.weave.works/v1alpha2
 kind: VM
 metadata:
@@ -19,5 +18,9 @@ spec:
   storage: {}
 status:
   image:
+    id: null
+    size: 0B
   kernel:
+    id: null
+    size: 0B
   running: true
