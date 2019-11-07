@@ -18,9 +18,5 @@ spec:
   storage: {}
 status:
   image:
-    id: null
-    size: 0B
   kernel:
-    id: null
-    size: 0B
   running: true
