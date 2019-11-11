@@ -8,7 +8,7 @@ spec:
   cpus: 1
   diskSize: 4GB
   image:
-    oci: weaveworks/ignite-centos7:latest
+    oci: weaveworks/ignite-centos:latest
   kernel:
     cmdLine: console=ttyS0 reboot=k panic=1 pci=off ip=dhcp
     oci: weaveworks/ignite-kernel:4.19.47
