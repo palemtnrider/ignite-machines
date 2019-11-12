@@ -1,0 +1,27 @@
+
+apiVersion: ignite.weave.works/v1alpha2
+kind: VM
+metadata:
+  created: "2019-10-28T01:53:30Z"
+  name: vm5-gitops
+  uid: FE030D91-CC37-4145-8792-88C35FFFFF
+spec:
+  cpus: 2
+  diskSize: 4GB
+  image:
+    oci: weaveworks/ignite-centos:latest
+  kernel:
+    cmdLine: console=ttyS0 reboot=k panic=1 pci=off ip=dhcp
+    oci: weaveworks/ignite-kernel:4.19.47
+  memory: 2GB
+  network: {}
+  ssh: true
+  storage: {}
+status:
+  image:
+    id: oci://docker.io/weaveworks/ignite-centos@sha256:faf8fb2ee04af7ec8cd2d5a5a0706d47ce2bbfa6fe426b0ce7efcd337899b68c
+    size: 237827111B
+  kernel:
+    id: oci://docker.io/weaveworks/ignite-kernel@sha256:a189f75c73a69ca4ab65a08a6566032fd80fd6e2cf26d066fdfc9335a9136215
+    size: 52021449B
+  running: true
