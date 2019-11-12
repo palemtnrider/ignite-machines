@@ -5,7 +5,7 @@ metadata:
   name: vm4-gitops
   uid: FE030D91-CC37-4145-8792-88C35F1F5FC6
 spec:
-  cpus: 2
+  cpus: 1
   diskSize: 4GB
   image:
     oci: weaveworks/ignite-centos:latest
