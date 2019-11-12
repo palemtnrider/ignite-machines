@@ -1,4 +1,3 @@
-
 apiVersion: ignite.weave.works/v1alpha2
 kind: VM
 metadata:
