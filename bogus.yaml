@@ -1,0 +1,6 @@
+apiVersion: ignite.weave.works/v1alpha2
+kind: bogus
+metadata:
+  name: bogus1
+spec:
+  foo: bar
