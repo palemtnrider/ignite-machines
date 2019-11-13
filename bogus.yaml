@@ -2,5 +2,7 @@ apiVersion: ignite.weave.works/v1alpha2
 kind: Image
 metadata:
   name: bogus
+  uid: aaa11ff
+  created: "2019-10-19T21:06:42Z"
 spec:
   foo: bar
