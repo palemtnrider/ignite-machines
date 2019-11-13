@@ -1,5 +1,5 @@
 apiVersion: ignite.weave.works/v1alpha2
-kind: image
+kind: Image
 metadata:
   name: bogus
 spec:
