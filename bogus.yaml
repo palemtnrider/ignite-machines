@@ -1,8 +1,0 @@
-apiVersion: ignite.weave.works/v1alpha2
-kind: Image
-metadata:
-  name: weaveworks/ignite:v0.6.0-96-41e426d3d091f2
-  uid: 006c28404bb62ec6
-  created: "2019-10-19T21:06:42Z"
-spec:
-  foo: bar
